@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpg_bg"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSettings"
+        app:rippleColor="#00FF0000"
+        android:outlineSpotShadowColor="#00FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_settings_24"
+        android:backgroundTint="#00FF0000"
+        android:contentDescription="Settings"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabVolumeUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_volume_down_24"
+        app:rippleColor="#00FF0000"
+        android:outlineSpotShadowColor="#00FF0000"
+        android:backgroundTint="#00FF0000"
+        android:onClick="play"
+        android:contentDescription="VolumeOn"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_volume_off_24"
+        app:rippleColor="#00FF0000"
+        android:outlineSpotShadowColor="#00FF0000"
+        android:backgroundTint="#00FF0000"
+        android:onClick="stop"
+        android:contentDescription="Volumeoff"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="155dp"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#00FF0000"
+            android:fontFamily="@font/samurai2"
+            android:text="START"
+            android:textColor="#8f6233"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btnHow_to_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FF0000"
+            android:layout_marginTop="-325dp"
+            android:layout_marginStart="18dp"
+            android:fontFamily="@font/samurai2"
+            android:text="HOW TO PLAY"
+            android:textColor="#8f6233"
+            android:textSize="34sp" />
+
+
+</LinearLayout>

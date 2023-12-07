@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg2"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/imgBtn_beginner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEGINNER"
+        android:textColor="@color/deep_blue"
+        android:fontFamily="@font/samurai2"
+        android:layout_marginStart="85dp"
+        android:textSize="40sp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="#00FF0000"/>
+
+
+    <Button
+        android:id="@+id/imgBtn_novice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOVICE"
+        android:textColor="@color/charcoal_Gray"
+        android:fontFamily="@font/samurai2"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:backgroundTint="#00FF0000"/>
+
+    <Button
+        android:id="@+id/imgBtn_amateur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMATEUR"
+        android:textColor="#a37f00"
+        android:fontFamily="@font/samurai2"
+        android:layout_marginTop="32dp"
+        android:textSize="40sp"
+        android:layout_marginStart="90dp"
+        android:backgroundTint="#00FF0000"/>
+
+    <Button
+        android:id="@+id/imgBtn_expert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXPERT"
+        android:textColor="#b95346"
+        android:fontFamily="@font/samurai2"
+        android:textSize="40sp"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="#00FF0000"/>
+
+    <Button
+        android:id="@+id/btnBack1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffde3a"
+        android:fontFamily="@font/samurai2"
+        android:text="↵"
+        android:textSize="80sp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="-1dp"
+        android:backgroundTint="#00FF0000"
+        android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>
