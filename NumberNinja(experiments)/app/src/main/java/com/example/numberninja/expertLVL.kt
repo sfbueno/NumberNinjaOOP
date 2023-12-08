@@ -144,7 +144,7 @@ class expertLVL : AppCompatActivity() {
                             findViewById<ImageView>(R.id.expertbg_2).visibility = View.VISIBLE
                             findViewById<ImageView>(R.id.expertbg_3).visibility = View.VISIBLE
                             findViewById<ImageView>(R.id.expertbg_4).visibility = View.VISIBLE
-                            findViewById<TextView>(R.id.expert_sixthRandom).visibility = View.VISIBLE
+                            findViewById<TextView>(R.id.expert_sixthRandom).visibility = View.INVISIBLE
                             onAnimationEnd?.invoke()
                         }, 100)
                     }

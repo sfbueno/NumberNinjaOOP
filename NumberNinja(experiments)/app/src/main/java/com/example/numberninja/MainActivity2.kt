@@ -98,7 +98,7 @@ class MainActivity2 : AppCompatActivity() {
                         handler.postDelayed({
                             val beginnerIntent = Intent(this@MainActivity2, noviceLVL::class.java)
                             startActivity(beginnerIntent)
-                        }, 2000) // Delay for 2 seconds (adjust as needed)
+                        }, 5000) // Delay for 2 seconds (adjust as needed)
                     }
                     2 -> {
                         // Handle click for amateurnumberbg
@@ -111,7 +111,7 @@ class MainActivity2 : AppCompatActivity() {
                         handler.postDelayed({
                             val beginnerIntent = Intent(this@MainActivity2, amateurLVL::class.java)
                             startActivity(beginnerIntent)
-                        }, 2000) // Delay for 2 seconds (adjust as needed)
+                        }, 5000) // Delay for 2 seconds (adjust as needed)
                     }
                     3 -> {
                         // Handle click for expertnumberbg
@@ -124,7 +124,7 @@ class MainActivity2 : AppCompatActivity() {
                         handler.postDelayed({
                             val beginnerIntent = Intent(this@MainActivity2, expertLVL::class.java)
                             startActivity(beginnerIntent)
-                        }, 2000) // Delay for 2 seconds (adjust as needed)
+                        }, 5000) // Delay for 2 seconds (adjust as needed)
                     }
                 }
             }

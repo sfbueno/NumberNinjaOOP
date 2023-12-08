@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splashbg"
+    android:background="@drawable/beginnermode"
     tools:context=".begginerLVL">
 
     <ImageView
@@ -57,14 +57,14 @@
         android:layout_width="150dp"
         android:layout_height="120dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="208dp"
         android:fontFamily="@font/samurai2"
-        android:textColor="@color/white"
         android:text=""
+        android:textColor="@color/white"
         android:textSize="100sp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,14 +74,14 @@
         android:layout_height="120dp"
         android:layout_below="@id/firstRandom"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="208dp"
         android:fontFamily="@font/samurai2"
         android:text=""
         android:textColor="@color/white"
         android:textSize="100sp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,14 +91,14 @@
         android:layout_height="120dp"
         android:layout_below="@id/firstRandom"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="208dp"
         android:fontFamily="@font/samurai2"
         android:text=""
         android:textColor="@color/white"
         android:textSize="100sp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -131,10 +131,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextAnswer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955" />
+        app:layout_constraintVertical_bias="0.913" />
 
     <EditText
         android:id="@+id/editTextAnswer"

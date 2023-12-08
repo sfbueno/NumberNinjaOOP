@@ -1,12 +1,15 @@
 package com.example.numberninja
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.text.InputType
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -22,7 +25,7 @@ class begginerLVL : AppCompatActivity() {
     lateinit var btnAnimate: Button
     lateinit var btnSubmit: Button
     lateinit var btnRetry: Button
-    lateinit var editTextAnswer: TextView
+    lateinit var editTextAnswer: EditText
     var animationCount = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {

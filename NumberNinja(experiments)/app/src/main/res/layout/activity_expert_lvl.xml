@@ -4,12 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/expertmode"
     tools:context=".expertLVl">
-
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/angasbai"/>
 
     <ImageView
         android:id="@+id/expertbg_1"
@@ -186,10 +182,9 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/expert_editTextAnswer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.972" />
 
     <EditText
         android:id="@+id/expert_editTextAnswer"
