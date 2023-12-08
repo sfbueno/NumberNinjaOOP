@@ -13,6 +13,18 @@
         android:theme="@style/Theme.NumberNinja"
         tools:targetApi="31">
         <activity
+            android:name=".transitioner4"
+            android:exported="false" />
+        <activity
+            android:name=".transitioner3"
+            android:exported="false" />
+        <activity
+            android:name=".transitioner2"
+            android:exported="false" />
+        <activity
+            android:name=".transitioner1"
+            android:exported="false" />
+        <activity
             android:name=".expertLVL"
             android:exported="false" />
         <activity
