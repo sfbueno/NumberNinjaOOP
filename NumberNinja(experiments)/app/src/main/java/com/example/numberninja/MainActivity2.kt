@@ -46,10 +46,10 @@ class MainActivity2 : AppCompatActivity() {
         viewPager2 = findViewById(R.id.viewPager2)
         imageList = ArrayList()
 
-        imageList.add(R.drawable.numbersbg)
-        imageList.add(R.drawable.novicenumberbg)
-        imageList.add(R.drawable.amateurnumberbg)
-        imageList.add(R.drawable.expertnumberbg)
+        imageList.add(R.drawable.beginnerlevel)
+        imageList.add(R.drawable.novicelevel)
+        imageList.add(R.drawable.amateurlevel)
+        imageList.add(R.drawable.expertlevel)
 
         adapter = ImageAdapter(imageList, viewPager2)
 
